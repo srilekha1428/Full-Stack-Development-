@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,sans-serif;
+    /* by default we will have some border and argin so taken as 0%  and for font to to web page and click inspect and click body go to styles and search and copy font family*/
+
+}
+#nav{
+    border: 2px solid;
+    height: 50px;
+    
+    
+}
+#sub-nav{
+    border: 2px solid red;
+    height: inherit;
+    width: 68%;
+    margin: auto;
+}
+#sub-nav ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1d1d1f;
+}
