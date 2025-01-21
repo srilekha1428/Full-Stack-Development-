@@ -25,7 +25,29 @@ window.setTimeout(()=>{
 },3000);
 
 //SETINTERVAL ASYNCHRONOUS METHOD
-window.setInterval(()=>{
-    console.log("I am setInterval");
+// window.setInterval(()=>{
+//     console.log("I am setInterval");
     
-},3000);
+// },3000);
+
+
+
+//PROMISES
+let online=window.navigator.onLine
+//online will check whether the device is connected to internet or not.
+new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+        if(online==true){
+            return resolve();
+        }
+        else{
+            return reject();
+        }
+    },5000);
+}).then(()=>{
+    console.log("online..");
+    
+}).catch(()=>{
+    console.log("offline..");
+    
+})
