@@ -1,0 +1,17 @@
+[
+    {
+        "name":"sample",
+        "id":1,
+        "branch":"cse"
+    },
+    {
+        "name":"sample2",
+        "id":2,
+        "branch":"cse"
+    },
+    {
+        "name":"sample3",
+        "id":3,
+        "branch":"aiml"
+    }
+]
